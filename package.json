@@ -1,0 +1,26 @@
+{
+  "name": "testapi",
+  "version": "1.0.0",
+  "description": "Testing node, express, SQL api.",
+  "main": "server.js",
+  "dependencies": {
+    "big-number": "0.3.1",
+    "bl": "^1.2.0",
+    "body-parser": "^1.15.2",
+    "depd": "^1.1.2",
+    "express": "^4.14.0",
+    "iconv-lite": "^0.4.11",
+    "mssql": "^ 3.3.0",
+    "native-duplexpair": "^1.0.0",
+    "nodemon": "^2.0.7",
+    "readable-stream": "^2.2.6",
+    "sprintf-js": "^1.1.1"
+  },
+  "scripts": {
+    "start": "node --max-old-space-size=8192 server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Pam",
+  "license": "ISC",
+  "devDependencies": {}
+}
